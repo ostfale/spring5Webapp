@@ -1,4 +1,4 @@
-package de.ostfale.spring5Webapp.model;
+package de.ostfale.spring5webapp.model;
 
 import javax.persistence.*;
 import java.util.HashSet;

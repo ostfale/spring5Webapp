@@ -1,11 +1,11 @@
-package de.ostfale.spring5Webapp.bootstrap;
+package de.ostfale.spring5webapp.bootstrap;
 
-import de.ostfale.spring5Webapp.model.Author;
-import de.ostfale.spring5Webapp.model.Book;
-import de.ostfale.spring5Webapp.model.Publisher;
-import de.ostfale.spring5Webapp.repositories.AuthorRepository;
-import de.ostfale.spring5Webapp.repositories.BookRepository;
-import de.ostfale.spring5Webapp.repositories.PublisherRepository;
+import de.ostfale.spring5webapp.model.Author;
+import de.ostfale.spring5webapp.model.Book;
+import de.ostfale.spring5webapp.model.Publisher;
+import de.ostfale.spring5webapp.repositories.AuthorRepository;
+import de.ostfale.spring5webapp.repositories.BookRepository;
+import de.ostfale.spring5webapp.repositories.PublisherRepository;
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.stereotype.Component;
@@ -35,7 +35,7 @@ public class DevBootstrap implements ApplicationListener<ContextRefreshedEvent> 
 		// Eric
 		Author eric = new Author("Eric", "Evans");
 		Book ddd = new Book("Domain Driven Design", "1234");
-		Publisher hc = new Publisher("Harper Collins", " New York");
+		Publisher hc = new Publisher("Harper Collins", "New York");
 
 		eric.getBooks().add(ddd);
 		ddd.getAuthors().add(eric);

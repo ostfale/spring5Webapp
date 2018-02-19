@@ -1,4 +1,4 @@
-package de.ostfale.spring5Webapp;
+package de.ostfale.spring5webapp;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

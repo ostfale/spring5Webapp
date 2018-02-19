@@ -1,6 +1,6 @@
-package de.ostfale.spring5Webapp.repositories;
+package de.ostfale.spring5webapp.repositories;
 
-import de.ostfale.spring5Webapp.model.Author;
+import de.ostfale.spring5webapp.model.Author;
 import org.springframework.data.repository.CrudRepository;
 
 /**

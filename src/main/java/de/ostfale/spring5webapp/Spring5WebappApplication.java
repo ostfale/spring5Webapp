@@ -1,4 +1,4 @@
-package de.ostfale.spring5Webapp;
+package de.ostfale.spring5webapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

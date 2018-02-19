@@ -1,4 +1,4 @@
-package de.ostfale.spring5Webapp.model;
+package de.ostfale.spring5webapp.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -16,8 +16,11 @@ public class Publisher {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
 
-	private final String name;
+	private String name;
 	private String address;
+
+	public Publisher() {
+	}
 
 	public Publisher(String name, String address) {
 		this.name = name;
